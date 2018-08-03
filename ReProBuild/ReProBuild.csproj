@@ -11,7 +11,7 @@
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>ReProBuild</PackageId>
-    <PackageVersion>1.0.0</PackageVersion>
+    <PackageVersion>1.0.1</PackageVersion>
     <Authors>RAS</Authors>
     <Owners>RAS</Owners>
     <Title>ReProBuild</Title>
@@ -21,7 +21,9 @@
 Helper package related to other software on https://github.com/RoelofAnne/</Description>
     <PackageLicenseUrl>https://github.com/RoelofAnne/ReProBuild</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/RoelofAnne/ReProBuild</PackageProjectUrl>
-    <PackageReleaseNotes>Initial version of helper package related to other software on https://github.com/RoelofAnne/</PackageReleaseNotes>
+    <PackageReleaseNotes>Initial version of helper package related to other software on https://github.com/RoelofAnne/
+
+Fixed small bug</PackageReleaseNotes>
     <PackageTags>build decompile compile c#</PackageTags>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

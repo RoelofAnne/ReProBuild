@@ -18,7 +18,7 @@ namespace ReProBuild
             {
                 String exeName = String.Format(@"{0}.exe", filename);
 
-                CompilerParameters cp = new CompilerParameters(new[] { "System.dll", "Repro.dll" });
+				CompilerParameters cp = new CompilerParameters(new[] { "System.dll", "ReProBuild.dll" });
 
                 // Generate an executable instead of 
                 // a class library.
